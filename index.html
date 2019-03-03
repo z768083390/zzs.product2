@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="CSS/font-awesome-4.7.0\css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/register.css">
+	<!-- <link rel="stylesheet" type="text/javascript" href="register.js"> -->
+	<script src="js/jquery-3.3.1.js"></script>
+	<title>登录注册</title>
+	<style type="text/css">			
+	</style>
+	<script>
+		$(function(){
+			$(".register_1").fadeIn(2000);
+			$(".register form").fadeIn(1000);
+		})
+	</script>	
+</head>
+<body>	
+	<div class="register">
+		
+		<div class="register_1"><p>用户注册</p></div>
+			
+			<form class="form">
+				
+			<label>用户名</label>			
+			<div class="text">		
+				<div class="i left"><i class="fa fa-user-o" aria-hidden="true"></i></div>
+				<input type="text" class="name" id="name" placeholder="请输入6到8个字符">										
+			</div>			
+			<div class="div" id="a1"></div>
+			
+			<label>登录密码</label>
+			
+			<div class="text">
+			<div class="i"><i class="fa fa-unlock-alt" aria-hidden="true"></i></div>
+			<input type="password" class="password" id="password" placeholder="请输入8位以上字符数字组合">
+		</div>
+			<div class="div" id="a2"></div>
+			
+			<label>确认密码</label>
+			<div class="text">
+			<div class="i"><i class="fa fa-unlock-alt" aria-hidden="true"></i></div>
+			<input type="password" class="passwords" id="passwords" placeholder="请再次输入密码">
+		</div>
+			<div class="div" id="a3"></div>
+			
+			<label>电子邮箱</label>
+			<div class="text">
+			<div class="i"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+			<input type="email" class="email" id="email">
+		</div>
+			<div class="div" id="a4"></div>
+			
+			<label>手机号</label>
+			<div class="text">
+			<div class="i left"><i class="fa fa-phone" aria-hidden="true"></i></div>
+			<input type="text" class="number" id="number">
+		</div>
+			<div class="div" id="a5"></div>
+			<input type="button" class="button" value="注册" id="button">
+			</form>
+		
+	</div>
+	<script type="text/javascript" src="js/register.js"></script>   
+</body>
+</html>
